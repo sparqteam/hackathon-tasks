@@ -7,7 +7,7 @@
 $$
 |s\rangle=|q_1q_2q_3\rangle,
 \qquad
-q_i\in\{0,1\}.
+q_i\in\lbrace 0,1\rbrace.
 $$
 
 Трансмон будем рассматривать как двухуровневую систему с состояниями $|0_T\rangle$ и $|1_T\rangle$.
@@ -35,7 +35,7 @@ $$
 $$
 \hat H_s(t)=\frac{\hbar}{2}
 \left(\delta_s \hat{I}
--\delta_s\hat\sigma_z+\Omega(t)\hat\sigma_x
+-\delta_s\hat{\sigma}_z+\Omega(t)\hat{\sigma}_x
 \right),
 $$
 
@@ -68,52 +68,64 @@ $$
 Пусть амплитуда прямоугольного импульса равна $A$.
 Рассмотрите следующие случаи:
 
-1. $$
+1.
+
+$$
    f_d=f_{110}=7.1870\ \text{ГГц},
    \qquad
    \tau=\frac{\pi}{A},
-   $$
+$$
 
-   $$
-   |\psi(0)\rangle=
-   \frac{|000\rangle+|111\rangle}{\sqrt2}|0_T\rangle.
-   $$
+$$
+|\psi(0)\rangle=
+\frac{|000\rangle+|111\rangle}{\sqrt2}|0_T\rangle.
+$$
 
-2. $$
+2.
+
+$$
    f_d=f_{111}=7.2994\ \text{ГГц},
    \qquad
    \tau=\frac{2\pi}{A},
-   $$
+$$
 
-   $$
-   |\psi(0)\rangle=
-   \frac{|000\rangle-|111\rangle}{\sqrt2}|0_T\rangle.
-   $$
+$$
+|\psi(0)\rangle=
+\frac{|000\rangle-|111\rangle}{\sqrt2}|0_T\rangle.
+$$
 
-3. $$
+3.
+
+$$
    f_d=f_{111}=7.2994\ \text{ГГц},
    \qquad
    \tau=\frac{2\pi}{A},
-   $$
+$$
 
-   $$
-   |\psi(0)\rangle=|111\rangle|0_T\rangle.
-   $$
+$$
+|\psi(0)\rangle=|111\rangle|0_T\rangle.
+$$
 
-4. $$
+4.
+
+$$
    f_d=f_{111}=7.2994\ \text{ГГц},
    \qquad
    \tau=\frac{\pi}{A},
-   $$
-   $$
-   |\psi(0)\rangle=
-   \frac{|000\rangle+|111\rangle}{\sqrt2}|0_T\rangle.
-   $$
-5. $$
+$$
+
+$$
+|\psi(0)\rangle=
+\frac{|000\rangle+|111\rangle}{\sqrt2}|0_T\rangle.
+$$
+
+5.
+
+$$
    f_d=f_{110}=7.1870\ \text{ГГц},
    \qquad
    \tau=\frac{2\pi}{A},
-   $$
+$$
 
 $$
    |\psi(0)\rangle=|111\rangle|0_T\rangle.
